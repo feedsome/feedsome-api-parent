@@ -1,0 +1,6 @@
+
+dependencies {
+//  Internal Dependencies
+    compile "com.feedsome:feedsome-service:$version"
+
+}

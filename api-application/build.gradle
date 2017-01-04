@@ -1,0 +1,21 @@
+
+dependencies {
+//  Internal Dependencies
+    compile project(':api-rest')
+    compile project(':api-ws')
+
+//  3rd Party Dependencies
+
+    //  Spring Dependencies
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile "org.springframework.boot:spring-boot-starter-tomcat"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka-server'
+
+    compile "org.jolokia:jolokia-core"
+
+    //  Jackson Dependencies
+    compile "com.fasterxml.jackson.datatype:jackson-datatype-jsr310"
+    compile "com.fasterxml.jackson.datatype:jackson-datatype-jdk8"
+}

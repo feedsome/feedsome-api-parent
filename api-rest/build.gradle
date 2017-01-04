@@ -1,0 +1,6 @@
+
+dependencies {
+//  Internal Dependencies
+    compile project(':api-services')
+
+}

@@ -1,2 +1,6 @@
 rootProject.name = 'feedsome-api-parent'
+include 'api-ws'
+include 'api-services'
+include 'api-rest'
+include 'api-application'
 
