@@ -2,5 +2,15 @@
 dependencies {
 //  Internal Dependencies
     compile project(':api-services')
+    compile project(':api-dto')
+
+//  Spring Dependencies
+    compile 'org.springframework.boot:spring-boot-starter-websocket'
+
+// 3rd Party Dependencies
+
+
+//  Test Dependencies
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
 
 }

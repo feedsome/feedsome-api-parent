@@ -53,12 +53,14 @@ subprojects {
     apply plugin: "org.springframework.boot"
 
     springBoot {
+        executable = false
         backupSource = false
     }
 
     bootRepackage {
         enabled = false
     }
+
 
     //
     // Dependencies

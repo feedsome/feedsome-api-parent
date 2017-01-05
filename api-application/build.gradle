@@ -1,4 +1,14 @@
 
+springBoot {
+    executable = true
+    backupSource = false
+}
+
+bootRepackage {
+    enabled = true
+    mainClass = 'com.feedsome.api.application.Application'
+}
+
 dependencies {
 //  Internal Dependencies
     compile project(':api-rest')
