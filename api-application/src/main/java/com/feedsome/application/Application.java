@@ -1,5 +1,6 @@
 package com.feedsome.application;
 
+import com.feedsome.api.rest.RestConfiguration;
 import com.feedsome.api.ws.WebSocketConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,6 +11,7 @@ import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
 @Import({
+        RestConfiguration.class,
         WebSocketConfiguration.class
 })
 @EnableEurekaServer
