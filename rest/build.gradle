@@ -11,6 +11,6 @@ bootRepackage {
 
 dependencies {
 //  Internal Dependencies
-    compile project(':api-services')
+    compile project(':feedsome-api-services')
 
 }

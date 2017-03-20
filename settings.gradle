@@ -1,7 +1,9 @@
 rootProject.name = 'feedsome-api-parent'
-include 'api-application'
-include 'api-services'
-include 'api-dto'
-include 'api-ws'
-include 'api-rest'
+include 'application'
+include 'services'
+include 'dto'
+include 'ws'
+include 'rest'
+
+rootProject.children.each {it.name="feedsome-api-${it.name}"}
 

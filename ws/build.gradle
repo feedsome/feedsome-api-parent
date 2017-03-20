@@ -11,8 +11,8 @@ bootRepackage {
 
 dependencies {
 //  Internal Dependencies
-    compile project(':api-services')
-    compile project(':api-dto')
+    compile project(':feedsome-api-services')
+    compile project(':feedsome-api-dto')
 
 //  Spring Dependencies
     compile 'org.springframework.boot:spring-boot-starter-websocket'

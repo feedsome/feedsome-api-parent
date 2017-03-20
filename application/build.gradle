@@ -13,8 +13,8 @@ bootRepackage {
 
 dependencies {
 //  Internal Dependencies
-    compile project(':api-rest')
-    compile project(':api-ws')
+    compile project(':feedsome-api-rest')
+    compile project(':feedsome-api-ws')
 
 //  3rd Party Dependencies
 
